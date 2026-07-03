@@ -12,3 +12,14 @@ h1{
 #p2{
     color: red;
 }
+#nav{
+    height:25px;
+    font-size:20px;
+    text-align:center;
+    padding:10px;
+    background-color:burlywood
+}
+#nav a{
+    margin:0px 10px;
+    text-decoration:none;
+}
