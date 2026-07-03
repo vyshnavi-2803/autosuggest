@@ -1,0 +1,14 @@
+h1{
+    color: red;
+}
+#user-card{
+    text-align:center;
+    border: 3px solid black;
+    
+}
+#user-card:hover{
+    background-color: lightblue;
+}
+#p2{
+    color: red;
+}
