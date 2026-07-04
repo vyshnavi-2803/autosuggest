@@ -1,25 +1,67 @@
-h1{
-    color: red;
+h1 {
+  color: red;
 }
-#user-card{
-    text-align:center;
-    border: 3px solid black;
-    
+
+/* property : value */
+
+
+#home-intro{
+  text-align: center;
+  border: 3px solid blue;
+
 }
-#user-card:hover{
-    background-color: lightblue;
+
+#home-intro:hover{
+  background-color: burlywood;
 }
+
 #p2{
-    color: red;
+  color: blue;
 }
+
 #nav{
-    height:25px;
-    font-size:20px;
-    text-align:center;
-    padding:10px;
-    background-color:burlywood
+  text-align: center;
+  background-color: brown;
+  height: 25px;
+  padding-top: 5px;
+  margin-bottom: 5px;
 }
+
 #nav a{
-    margin:0px 10px;
-    text-decoration:none;
+  margin: 0px 5px;
+  text-decoration: none;
+  color: white;
+}
+#nav a:hover{
+    color :aliceblue;
+    text-decoration: underline;
+}
+#card-container{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+#card{
+      border: 3px solid black;
+    display: inline-block;
+    padding: 20px;
+    margin: 20px auto;
+    text-align: center;
+    align-items:center;
+}
+
+#card-img{
+  width: 300px;
+  height: 300px;
+  align-items: center;
+  margin: 0px auto;
+}
+
+img{
+  width: 300px;
+  height: 300px;
+}
+
+#action{
+  text-align: center;
 }
